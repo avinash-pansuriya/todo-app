@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./assets/style/style.css">
+
+<head>
+
+</head>
+
+<body onload="displayTodo()">
+    <div class="dataFrome">
+        <div class="backGroundContainar">
+            <div class="data-wappeer">
+                <div class="color"></div>
+                <div class="inputAreya">
+                    <h1 class="main-headder">
+                        New Todo:
+                    </h1>
+                    <div class="inputAreya-wrapper">
+                        <input class="textAreya" name="text" id="text" placeholder="Add Todo" />
+                        <input type="hidden" id="saveIndex" />
+                        <button class="addBtn dataSvaeBtn" id="add-task-btn" onclick="add()">Add</button>
+                        <button class="editSaveBtn dataSvaeBtn" style="display: none" id="save-todo-btn"
+                            onclick="addEdit()">EditTodo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="data-show">
+                <div class="data-show">
+                    <div id="listBox"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
